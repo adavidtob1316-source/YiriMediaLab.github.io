@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+        <head>
+                 <meta charset="utf-8">
+                 <title>Yiri Media Lab</title> <!-- Nombre del sitio web -->
+
+                <!-- CSS -->
+                <style>
+                        /* Lista de las cápsulas */
+                        body {  
+                                background: #000000;
+                                margin: 0;
+                                font-family: 'Quicksand', sans-serif;
+                        }
+
+                        .S-web {
+                                margin-bottom: 50px;
+                                font-size: 3.5rem;
+                                font-weight: 600;
+                                text-align: center;
+                                color: #eff0f5;
+                                font-family: 'Hatton';
+                        }
+                        .main-layout {
+                                display: flex;
+                                justify-content: space-between; /* separa izquierda y derecha */
+                                align-items: flex-start; /* alinea arriba */
+                                padding: 20px;
+                        }
+
+                        .left-side {
+                                width: 50%; /* ocupa la mitad de la página */
+                                padding: 20px;
+                                box-sizing: border-box;
+                                text-align: center; /* centra el contenido dentro */
+                        }
+
+                        .left-side img {
+                                display: block;
+                                margin: 0 auto;
+                        }
+
+                        .container {    
+                                max-width: 800px;
+                                margin: 50px auto 0 auto;
+                                padding: 2rem;
+                                display: flex;
+                                flex-direction: column;
+                                align-items: flex-end;
+                                margin-right: 20px; /* opcional: espacio desde el borde derecho */
+                                width: 50%; /* ocupa la otra mitad */
+                                padding: 20px;
+                        }
+                        .container h2 {
+                                margin-bottom: 50px;
+                                font-size: 2.5rem;
+                                font-weight: 600;
+                                text-align: center;
+                                color: #eff0f5;
+                        }
+
+                        details {
+                                background-color: #000000; /* color de fondo cuando no está desplegado */
+                                width: 100%;
+                                margin-bottom: 1rem;   
+                                border-radius: 8px;  
+                                border: 1px solid #3f3f3f;
+                                color: #eff0f5;
+                                position: relative; 
+                                line-height: 1;
+                        }
+
+                        details[open] {
+                                background: #000000; /* color de fondo cuando está desplegado */
+                                line-height: 1.5;
+                        }
+
+                        /* Título de las cásulas */
+                        details summary {
+                                font-weight: 400; /* peso de la tipografía cuando  no está desplegado */
+                                font-size: 1.25rem;
+                                padding: 1rem;
+                                list-style: none; /* ocultamos la flecha */
+                                cursor: pointer; /* cambia el cursor del puntero */
+                                text-align: center;
+                        }
+
+                        details[open] summary {
+                                font-weight: 600; /* peso de la tipografía cuando está desplegado */
+                                text-align: center;
+                        }
+
+                        /* Contenido oculto */
+                        details p {
+                                margin: 0 1rem 1rem 1rem;
+                        }
+                        .Autor  {
+                                font-style: italic;
+                                font-size: 1.0rem;
+                        }
+                </style>
+        <head>
+        <body>
+        
+        <div class="main-layout">
+
+        <div class="left-side">
+        <h1 class="S-web">Yiri Media Lab</h1> 
+        <img src="Yiri1.jpg" height="400" style="display: block; margin: 0 auto;">
+        </div>
+
+        <!-- Cápsulas -->
+        <div class="container">
+        
+        <!-- Secciones -->
+        
+        <details><summary><a href="Ambiente.html">Ambiente</a></summary></details>
+        <details><summary><a href="Cultura.html">Cultura</a></summary></details>
+        <details><summary><a href="Otros.html">Otros temas</a></summary></details>
+        
+        <details open>
+        <summary>Sobre YML</summary>
+        <p style="text-align: center">Yiri es la palabra para árbol en la lengua bamana de África occidental. El árbol ha sido un espacio de 
+        contemplación, de reposo, de reunión y donde se transmiten saberes. También simboliza lo antiguo, aquello que trasciende la escala 
+        temporal humana. Yiri Media Lab es un proyecto de diseño y desarrollo web experimental articulado como laboratorio emergente y 
+        medio de comunicación independiente que abarca temáticas en torno al pensamiento y la acción ambiental, la cultura, el arte y demás. 
+        </p>
+        <p style="text-align: center">YML es articulado por Andres David Tobar Rivas, estudiante de geografía de la Universidad Nacional
+        de Colombia y pasante en el Centro de Alternativas al Desarrollo. Ha escrito sobre la ecología de los espacios de bajamar y ganados
+        al mar en el Pacífico colombiano, exponiéndo la complejidad del conflicto sobre estos espacios, el cual articula nociones entrecruzadas
+        de naturaleza marino-costera, racismo, territorialidades superpuestas, habitabilidad, injusticias socioambientales y 
+        formas de resistencia y reexistencia. También ha indagado sobre paisaje sonoro e identidad de la música negra-afrodescendiente.
+        </p> 
+        <p style="text-align: center"><a href="https://www.linkedin.com/in/andres-david-tobar-rivas-3183882aa/" target="_blank">
+                LinkedIn</a></p>
+        </details>
+        </div>
+        </div>
+
+        </body>
+</html>
